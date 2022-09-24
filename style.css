@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 800 !important;
     color: black;
 }
 
@@ -62,6 +63,10 @@ body {
 a {
     text-decoration: none;
     color: cyan;
+    transition: all 200ms ease-in-out;
+}
+a:hover {
+    transform: scale(1.08);
 }
 
 
@@ -98,5 +103,5 @@ h1 {
 
     .container #socials {
         margin-left: 6rem;
-
+        gap: .3rem;
     }
